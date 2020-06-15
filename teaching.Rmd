@@ -1,0 +1,20 @@
+---
+title: "Teaching"
+---
+
+- [Stat] Nutrition graduate course (2019)
+- [Stat] Biology graduate course (2018-current)
+- [Stat1-2] Administration graduate course (2018-2019)
+
+### 2019
+
+- (Stats) Statistics for Nutrition 
+- (Stats) Modeling for Marine Ecology
+- (Stats 2) Statistics for Administration 
+
+
+### 2018
+
+- (Stats) Modeling for Biology
+- (Stats 1) Statistics for Administration 
+

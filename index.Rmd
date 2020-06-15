@@ -1,0 +1,37 @@
+---
+title: "Pamela Solano"
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="files/PAM.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
+
+
+- Posdoctoral researcher at [SAGE](http://www.sage.coppe.ufrj.br)/[Abrolhos](http://abrolhos.org), Brazil.
+
+## CV and publications:
+
+- [Personal CV](CV/cv-Pamela.pdf) 
+- [Lattes CV](http://lattes.cnpq.br/3521875663611776)
+- [Google Scholar](https://scholar.google.com.au/citations?user=La3oKqMAAAAJ&hl=pt-BR)
+- Orcid: [0000-0002-2667-8755](https://orcid.org/0000-0002-2667-8755)
+- [Publication page](publications.html)
+
+### 2020
+
+- (Perú COVID-19) Confirmed cases in Perú by distrits. [(Link)](https://pchiroque.shinyapps.io/perucovid19/)
+- (International apresentation) Accepted in the International Statistical Ecology Conference (June 2020) 
+
+### 2019
+
+- (Projects) Marine Ecology modeling
+- (Projects) Arboviral (Arthropod-borne Viral) Diseases
+
+### 2018
+
+- Event Diarrhea crisis in Childhood research (The last chapter of Thesis) ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
+
+Last update:
+```{r, echo=F}
+date()
+```

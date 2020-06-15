@@ -1,0 +1,21 @@
+---
+title: "CV"
+---
+
+
+## Short bio
+
+I have a PhD statistics by UFRJ Brazilian university. My interest is based on developing Bayesian statistical tools to applied real problems.
+
+
+## Education
+
+- PhD in statistics, [The Federal University of Rio de Janeiro ](http://www.dme.ufrj.br/), Brazil, 2018. <BR> Under supervision of [Prof Helio Migon](http://lattes.cnpq.br/7997248190492823). ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
+- Master in statistics, [The Federal University of Rio de Janeiro ](http://www.dme.ufrj.br/), Brazil, 2014. <BR> Under supervision of [Prof Fernando Moura](http://lattes.cnpq.br/7139199699142105). ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Mestrado/144.pdf))
+
+## Students
+
+  - Mariana Soares (2019-2020) Statistics/ Institute of Matematics.
+  - Jéssica Soares (2019-2020) Statistics/ Institute of Matematics.
+  - Larissa Soares (2019-2020) Statistics/ Institute of Matematics.
+

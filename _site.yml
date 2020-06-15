@@ -1,0 +1,26 @@
+name: "Pamela Ch. Solano"
+output_dir: "."
+navbar:
+  title: "Pamela Solano"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "About me"
+      href: cv.html
+    - text: "Contact"
+      href: contact.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/pchiroque
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/pchiroque
+output:
+  html_document:
+    theme: cosmo
+    css: 'styles.css'
