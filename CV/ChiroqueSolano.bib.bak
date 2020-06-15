@@ -1,0 +1,473 @@
+% Encoding: UTF-8
+
+
+@Article{Bastoset2018Divas,
+  Title                    = {{HIV}, {HCV}, {HBV} and {Syphilis} among Transgender Women from {Brazil}: Assessing different methods to adjust infection rates of a hard-to-reach, sparse population},
+  Author                   = {Bastos, F. I. and Bastos, L. S. and Coutinho, C. F. and Toledo, L. and Mota, J. C. and {Velasco-de-Castro}, C. A. and Sperandei, S. and Brignol, S. M. and Travassos, T. S. and Santos, C. M. and Malta, M. S. and {Divas Research Group}},
+  Journal                  = {Medicine},
+  Year                     = {2018},
+  Number                   = {1 Suppl},
+  Pages                    = {S16-S24},
+  Volume                   = {97},
+
+  Doi                      = {10.1097/md.0000000000009447},
+  Owner                    = {lbastos},
+  Timestamp                = {2018.03.03}
+}
+
+@PhdThesis{Bastos2010,
+  Title                    = {{Validating Gaussian Process Models in Computer Experiments}},
+  Author                   = {Bastos, Leonardo S.},
+  School                   = {University of Sheffield},
+  Year                     = {2010},
+  Month                    = {jun},
+
+  Abstract                 = {In this thesis we present a methodology for validating Gaussian process models: Gaussian process emulators and simulator discrepancy models. A Gaussian process emulator is a representation of our beliefs about a mathematical model implemented in a computer program known as a simulator. By ``simulator discrepancy'', we mean the difference between a simulator's output and the corresponding physical process. We present a set of diagnostics to validate and assess the adequacy of Gaussian process models. These diagnostics are based on comparisons between real observations and model predictions for some test data, known as validation data, defined by a sample of real observations not used to build the model. The validation data are chosen according to designs that we have developed for such purposes. The diagnostics for Gaussian process emulators and discrepancy models are useful tools during the modelling procedure. Based on the result of the diagnostics, we can identify problems such as underconfidence, overconfidence, poor estimation of some unknown parameters, which if not identified might compromise analyses using the Gaussian process models. After we identify a problem, the diagnostics may provide information on where we should collect more data in order to make the predictive model a better representation of our beliefs.},
+  Url                      = {http://etheses.whiterose.ac.uk/963/}
+}
+
+@Article{Bastos2006,
+  Title                    = {{Dynamic survival models with spatial frailty}},
+  Author                   = {Bastos, Leonardo S. and Gamerman, Dani},
+  Journal                  = {Lifetime Data Analysis},
+  Year                     = {2006},
+
+  Month                    = {nov},
+  Number                   = {4},
+  Pages                    = {441--460},
+  Volume                   = {12},
+
+  Abstract                 = {In many survival studies, covariates effects are time-varying and there is presence of spatial effects. Dynamic models can be used to cope with the variations of the effects and spatial components are introduced to handle spatial variation. This paper proposes a methodology to simultaneously introduce these components into the model. A number of specifications for the spatial components are considered. Estimation is performed via a Bayesian approach through Markov chain Monte Carlo methods. Models are compared to assess relevance of their components. Analysis of a real data set is performed, showing the relevance of both time-varying covariate effects and spatial components. Extensions to the methodology are proposed along with concluding remarks.},
+  Doi                      = {10.1007/s10985-006-9020-2},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bastos, Gamerman - 2006 - Dynamic survival models with spatial frailty.pdf:pdf},
+  ISBN                     = {1098500690202},
+  ISSN                     = {1380-7870},
+  Keywords                 = {Bayesian,Correlation function,Duration times,Dynamic models,Gaussian random fields,MCMC,Municipalities},
+  Pmid                     = {17031498},
+  Url                      = {http://link.springer.com/10.1007/s10985-006-9020-2}
+}
+
+@Article{Bastos2015,
+  Title                    = {{Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies}},
+  Author                   = {Bastos, Leonardo S. and Oliveira, Raquel de Vasconcellos Carvalhaes d and Velasque, Luciane de Souza},
+  Journal                  = {Cadernos de Sa{\'{u}}de P{\'{u}}blica},
+  Year                     = {2015},
+
+  Month                    = {mar},
+  Number                   = {3},
+  Pages                    = {487--495},
+  Volume                   = {31},
+
+  Abstract                 = {In the last decades, the use of the epidemiologi-cal prevalence ratio (PR) instead of the odds ra-tio has been debated as a measure of association in cross-sectional studies. This article addresses the main difficulties in the use of statistical models for the calculation of PR: convergence problems, availability of tools and inappropri-ate assumptions. We implement the direct ap-proach to estimate the PR from binary regression models based on two methods proposed by Wil-cosky {\&} Chambless and compare with different methods. We used three examples and compared the crude and adjusted estimate of PR, with the estimates obtained by use of log-binomial, Pois-son regression and the prevalence odds ratio (POR). PRs obtained from the direct approach resulted in values close enough to those obtained by log-binomial and Poisson, while the POR overestimated the PR. The model implemented here showed the following advantages: no nu-merical instability; assumes adequate probabil-ity distribution and, is available through the R statistical package.},
+  Doi                      = {10.1590/0102-311X00175413},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bastos et al. - Unknown - Obtaining adjusted prevalence ratios from logistic regression models in cross-sectional studies.pdf:pdf},
+  ISSN                     = {0102-311X},
+  Url                      = {http://www.scielo.br/scielo.php?script=sci{\_}arttext{\&}pid=S0102-311X2015000300487{\&}lng=en{\&}nrm=iso{\&}tlng=en}
+}
+
+@Article{Bastos2009,
+  Title                    = {{Diagnostics for Gaussian Process Emulators}},
+  Author                   = {Bastos, Leonardo S. and O’Hagan, Anthony},
+  Journal                  = {Technometrics},
+  Year                     = {2009},
+
+  Month                    = {nov},
+  Number                   = {4},
+  Pages                    = {425--438},
+  Volume                   = {51},
+
+  Abstract                 = {Technometrics, Vol.51, No.4, 2009, 425-438},
+  Doi                      = {10.1198/TECH.2009.08019},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bastos, O’Hagan - 2009 - Diagnostics for Gaussian Process Emulators.pdf:pdf},
+  ISBN                     = {10.1198/TECH.2009.08019},
+  ISSN                     = {0040-1706},
+  Url                      = {http://www.tandfonline.com/doi/abs/10.1198/TECH.2009.08019}
+}
+
+@TechReport{Basetal12,
+  Title                    = {{Binary regression analysis with network structure of respondent-driven sampling data}},
+  Author                   = {Bastos, Leonardo S. and Pinho, Adriana A and Code{\c{c}}o, Claudia and Bastos, Francisco I},
+  Institution              = {ArXiv e-prints},
+  Year                     = {2012},
+
+  Booktitle                = {ArXiv e-prints}
+}
+
+@Article{Bastos2013,
+  Title                    = {{Predicting probabilities for the 2010 FIFA World Cup games using a Poisson-Gamma model}},
+  Author                   = {Bastos, Leonardo S. and da Rosa, Joel Mauricio Correa},
+  Journal                  = {Journal of Applied Statistics},
+  Year                     = {2013},
+
+  Month                    = {jul},
+  Number                   = {7},
+  Pages                    = {1533--1544},
+  Volume                   = {40},
+
+  Abstract                 = {In this paper, we provide probabilistic predictions for soccer games of the 2010 FIFA World Cup modelling the number of goals scored in a game by each team. We use a Poisson distribution for the number of goals for each team in a game, where the scoring rate is considered unknown. We use a Gamma distribution for the scoring rate and the Gamma parameters are chosen using historical data and difference among teams defined by a strength factor for each team. The strength factor is a measure of discrimination among the national teams obtained from their memberships to fuzzy clusters. The clusters are obtained with the use of the Fuzzy C-means algorithm applied to a vector of variables, most of them available on the official FIFA website. Static and dynamic models were used to predict the World Cup outcomes and the performance of our predictions was evaluated using two comparison methods.},
+  Doi                      = {10.1080/02664763.2013.788619},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Soares Bastos et al. - 2013 - Predicting probabilities for the 2010 FIFA World Cup games using a Poisson- Gamma model Predicting probabi.pdf:pdf},
+  ISSN                     = {0266-4763},
+  Keywords                 = {Bayesian inference,Fuzzy C-means clustering,Poisson-Gamma distribution,World Cup predictions,dynamic model}
+}
+
+@Article{Bazin2014,
+  Title                    = {{Terapia antirretroviral em crian{\c{c}}as e adolescentes infectados pelo HIV: o que sabemos ap{\'{o}}s 30 anos de epidemia}},
+  Author                   = {Bazin, Gabriela Ricordi and Gaspar, Mariza Curto Saavedra and da Silva, Nicole Carvalho Xavier Micheloni and Mendes, Carolina da Costa and de Oliveira, Cora Pichler and Bastos, Leonardo S. and Cardoso, Claudete Aparecida Ara{\'{u}}jo},
+  Journal                  = {Cadernos de Sa{\'{u}}de P{\'{u}}blica},
+  Year                     = {2014},
+
+  Month                    = {apr},
+  Number                   = {4},
+  Pages                    = {687--702},
+  Volume                   = {30},
+
+  Abstract                 = {This study aims to evaluate antiretroviral therapy in children and adolescents with AIDS. We selected 247 abstracts published from 1983 to 2013, collected from the PubMed and LILACS databases. Sixty-nine articles were selected. Attention to research in the pediatric age bracket in 30 years of the epidemic is explained by the age group's immunological characteristics, since AIDS progresses faster in children than in adults. Recent studies focus on the initiation of highly active antiretroviral therapy before the onset of symptoms. Early introduction of combination antiretroviral therapy has been implemented effectively and safely in populations with limited resources, leading to significantly improved survival. The current challenge is to manage a chronic disease with acute complications. New studies should focus on population specificities and identify the individual needs of pediatric patients.},
+  Doi                      = {10.1590/0102-311X00075413},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bazin et al. - 2014 - Antiretroviral therapy in HIV-infected children and adolescents Lessons learned in 30 years of the epidemic.pdf:pdf},
+  ISSN                     = {0102-311X},
+  Keywords                 = {Acquired immunodeficiency syndrome,Adolescent,Child,Highly active antiretroviral therapy,Survivorship},
+  Url                      = {http://www.scielo.br/scielo.php?script=sci{\_}arttext{\&}pid=S0102-311X2014000400687{\&}lng=pt{\&}nrm=iso{\&}tlng=en}
+}
+
+@Article{DeAzevedoBittencourt2015,
+  Title                    = {{Neonatal care in Brazil: hospital structure and adequacy according to newborn obstetric risk}},
+  Author                   = {Bittencourt, Sonia Duarte de Azevedo and Gurgel, Ricardo Queiroz and Menezes, Maria Alexsandra da Silva and Bastos, Leonardo S. and Leal, Maria do Carm0},
+  Journal                  = {Paediatrics and International Child Health},
+  Year                     = {2015},
+  Number                   = {3},
+  Pages                    = {206--212},
+  Volume                   = {35},
+
+  Abstract                 = {Background: In Brazil, hospital birth care is available to all, but there are important differences between hospitals in the public and private sectors, geographical regions and capitals/inland cities, resulting in inequalities of infant health. Aims: To assess the hospital structure for birth care in Brazil and analyze hospital adequacy to care for newborns according to levels of risk. Methods: Data were collected as part of a nationwide hospital-based cohort study, 'Birth in Brazil'. The hospitals were classified according to whether they had a neonatal intensive care unit and divided into two models of governance: public and private financing. Three structure domains were assessed: human resources, medications and equipment for post-natal women and newborn emergency care. Newborns were classified according to the obstetric risk. Results: There are more NICUs in private hospitals and they cater mostly for low obstetric risk newborns; the public sector serves 50{\%} of at-risk patients in hospitals without an NICU. The differences between hospital service structures according to geographic region and capital/inland cities were evident. Hospitals in less developed regions and inland cities had poorer adequacy in the three domains. Conclusion: The distribution of neonatal care to Brazilian infants varied between the public and private sectors. The public sector offered less complex services for newborns at risk, and infants without obstetric risk were born in facilities with an NICU, creating the possibility of unnecessary intervention, especially in the private sector.},
+  Doi                      = {10.1179/2046905515Y.0000000028},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Duarte De Azevedo Bittencourt et al. - Unknown - Neonatal care in Brazil hospital structure and adequacy according to newborn obstetric.pdf:pdf},
+  ISSN                     = {2046-9047},
+  Keywords                 = {Maternal and child health,Maternity hospitals,Quality of health care,Structure of services},
+  Url                      = {http://www.maneyonline.com/doi/10.1179/2046905515Y.0000000028}
+}
+
+@InCollection{Carvalho2015,
+  Title                    = {{Bayesian Inference of Deterministic Population Growth Models}},
+  Author                   = {Carvalho, Luiz Max and Struchiner, Claudio J and Bastos, Leonardo S.},
+  Booktitle                = {Interdisciplinary Bayesian Statistics},
+  Publisher                = {Springer},
+  Year                     = {2015},
+  Pages                    = {217--228},
+
+  Abstract                 = {Deterministic mathematical models play an important role in our under-standing of population growth dynamics. In particular, the effect of temperature on the growth of disease-carrying insects. In this paper we propose a modified Verhulst – logistic growth – equation with temperature-dependent parameters. Namely, the growth rate r and the carrying capacity K are given by thermodynamic functions of temperature T, r(T) and K(T). Our main concern is with the problem of learn-ing about unknown parameters of these deterministic functions from observations of population time series P(t,T). We propose a strategy to estimate parameters of r(T) and K(T) by treating the model output P(t,T) as a realization of a Gaussian process (GP) with fixed variance and mean function given by the analytic solution to the modified Verhulst equation. We then use Gibbs sampling, implemented using the recently developed rstan package of the R statistical computing environment, to approximate the posterior distribution of the parameters of interest. In order to eval-uate the performance of our algorithm, we run a Monte Carlo study on a simulated example, where bias and coverage were calculated. We then proceed to apply the ap-proach described herein to laboratory data of the Chagas disease vector, Rhodnius prolixus. Analysis of this data shows that the growth rate for the insect popula-tion under study achieves its maximum around 26 • C and the carrying capacity is maximum around 25 • C, suggesting that R. prolixus populations may thrive even in temperate climates.},
+  Doi                      = {10.1007/978-3-319-12454-4{\_}18},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Max et al. - Unknown - Bayesian Inference of Deterministic Population Growth Models.pdf:pdf},
+  Url                      = {http://link.springer.com/10.1007/978-3-319-12454-4{\_}18}
+}
+
+@TechReport{DeCarvalho2015,
+  Title                    = {{Choosing the weights for the logarithmic pooling of probability distributions}},
+  Author                   = {de Carvalho, Luiz Max and Villela, Daniel A. M. and Coelho, Flavio Codeco and Bastos, Leonardo S.},
+  Institution              = {arXiv preprint},
+  Year                     = {2015},
+  Number                   = {arXiv:1502.04206},
+
+  Abstract                 = {Combining different prior distributions is an important issue in decision theory and Bayesian inference. Logarithmic pooling is a popular method to aggregate expert opinions by using a set of weights that reflect the reliability of each information source. The resulting pooled distribution however heavily depends set of weights given to each opinion/prior. In this paper we explore three objective approaches to assigning weights to opinions. Two methods are stated in terms of optimization problems and a third one uses a hierarchical prior that accounts for uncertainty on the weights. We explore an example in which a proportion is estimated using weights assigned to a finite set of opinions and show that, depending on the used method, results vary from discarding some of the expert opinions to the situation in which all opinions are assigned equal weights. Nevertheless, the three methods explored in this paper lead to very similar combined priors, with very similar integrated (marginal) likelihoods. Key-words: logarithmic pooling; expert opinion; maximum entropy; Kullback-Liebler divergence; Dirichlet prior.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {1502.04206},
+  Eprint                   = {1502.04206},
+  Url                      = {http://arxiv.org/abs/1502.04206}
+}
+
+@Article{codecco2016zika,
+  Title                    = {Zika is not a reason for missing the Olympic Games in Rio de Janeiro: response to the open letter of Dr Attaran and colleagues to Dr Margaret Chan, Director-General, WHO, on the Zika threat to the Olympic and Paralympic Games},
+  Author                   = {Code{\c{c}}o, Claudia and Villela, Daniel and Gomes, Marcelo F and Bastos, Leonardo and Cruz, Oswaldo and Struchiner, Claudio and Carvalho, Luis Max and Coelho, Flavio},
+  Journal                  = {Mem{\'o}rias do Instituto Oswaldo Cruz},
+  Year                     = {2016},
+  Number                   = {6},
+  Pages                    = {414--415},
+  Volume                   = {111},
+
+  Doi                      = {10.1590/0074-02760160003},
+  Publisher                = {SciELO Brasil}
+}
+
+@Article{codeco2018,
+  Title                    = {Infodengue: A nowcasting system for the surveillance of arboviruses in Brazil},
+  Author                   = {Code\c{c}o, C. and Coelho, F. and Oliveira, S. and Castro, T. and Bastos, L.},
+  Journal                  = {REVUE D EPIDEMIOLOGIE ET DE SANTE PUBLIQUE},
+  Year                     = {2018},
+  Pages                    = {S386},
+  Volume                   = {66, p. S386},
+
+  Doi                      = {10.1016/j.respe.2018.05.408},
+  Owner                    = {lbastos},
+  Timestamp                = {2018.08.13}
+}
+
+@Article{coelho2016higher,
+  Title                    = {Higher incidence of Zika in adult women than adult men in Rio de Janeiro suggests a significant contribution of sexual transmission from men to women},
+  Author                   = {Coelho, Flavio Code{\c{c}}o and Durovni, Betina and Saraceni, Valeria and Lemos, Cristina and Codeco, Claudia Torres and Camargo, Sabrina and De Carvalho, Luiz Max and Bastos, Leonardo and Arduini, Denise and Villela, Daniel AM and others},
+  Journal                  = {International Journal of Infectious Diseases},
+  Year                     = {2016},
+  Pages                    = {128--132},
+  Volume                   = {51},
+
+  Doi                      = {10.1016/j.ijid.2016.08.023},
+  Publisher                = {Elsevier}
+}
+
+@Article{coutinho2019risks,
+  author    = {Coutinho, Carolina and Bastos, Leonardo S and {da Mota}, Jurema Corr{\^e}a and Toledo, Lidiane and Costa, Katia and Bertoni, Neilane and Bastos, Francisco I},
+  title     = {The risks of HCV infection among Brazilian crack cocaine users: incorporating diagnostic test uncertainty},
+  journal   = {Scientific reports},
+  year      = {2019},
+  volume    = {9},
+  number    = {1},
+  pages     = {443},
+  doi       = {10.1038/s41598-018-35657-0},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{cysne2018evidence,
+  Title                    = {Evidence of Subpopulations with Distinct Biological Features Within a Leishmania (Viannia) braziliensis Strain},
+  Author                   = {Cysne-Finkelstein, L{\'e}a and Silva-Almeida, Mariana and Pereira, Bernardo Ac{\'a}cio Santini and dos Santos Charret, Karen and Bertho, {\'A}lvaro Luiz and Bastos, Leonardo Soares and de Oliveira Pinto, Luzia and de Oliveira, Francisco Od{\^e}ncio Rodrigues and da Souza Pereira, Mirian Cl{\'a}udia and Alves, Carlos Roberto},
+  Journal                  = {Protist},
+  Year                     = {2018},
+  Pages                    = {107--121},
+  Volume                   = {169},
+
+  Doi                      = {10.1016/j.protis.2017.11.004},
+  Publisher                = {Elsevier}
+}
+
+@Article{DeBoni2014,
+  Title                    = {{Unrecorded alcohol in Rio de Janeiro: Assessing its misusers through Respondent Driven Sampling}},
+  Author                   = {{De Boni}, Raquel Brandini and Bertoni, Neilane and Bastos, Leonardo S. and Bastos, Francisco I.},
+  Journal                  = {Drug and Alcohol Dependence},
+  Year                     = {2014},
+
+  Month                    = {jun},
+  Pages                    = {169--173},
+  Volume                   = {139},
+
+  Abstract                 = {Background: Around 20-30{\%} of alcohol use in low and middle-income countries is estimated to come from unrecorded sources, but little is known about the characteristics of its consumers. The aim of this study was to obtain information about users of unrecorded alcohol and describe factors associated with its frequent use. Method: A cross-sectional study, using Respondent Driven Sampling (RDS), was conducted in Rio de Janeiro, Brazil in 2010. Individuals aged 18-65 who reported binge drinking in the last 12 months were recruited to participate in a structured interview. Three sources of unrecorded alcohol use were assessed: home-made/unrecorded; perfumes/lotions; and "medicinal" products (compounds made of herbs and local spirits). Results: 343 individuals were recruited and 303 were interviewed. The sample comprised mostly of men (n= 256) from low socioeconomic strata, with a mean age of 38.8 (??12). Most individuals (71.8{\%}) reported to have used more than one variety of unrecorded alcohol, which was found to be associated with: being older than 31 (OR 2.21; CI 95{\%} 1.05-4.80), an AUDIT score >20 (OR 11.21; CI 95{\%} 4.56-30.96), having used crack/cocaine (OR 2.29; CI 95{\%} 1.02-5.21), and having received treatment for alcohol addiction in the last 12 months (OR 3.64; CI 95{\%} 1.25-13.49). Conclusion: Most unrecorded alcohol users were disadvantaged polysubstance users. Assessing unrecorded alcohol use has important clinical implications and should be screened for among crack/powder cocaine and alcohol-dependent patients. ?? 2014 Elsevier Ireland Ltd.},
+  Doi                      = {10.1016/j.drugalcdep.2014.03.015},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/De Boni et al. - 2014 - Unrecorded alcohol in Rio de Janeiro Assessing its misusers through Respondent Driven Sampling.pdf:pdf},
+  ISSN                     = {03768716},
+  Keywords                 = {Epidemiology,Low and middle-income countries,Polysubstance use,Respondent Driven Sampling (RDS),Unrecorded alcohol},
+  Pmid                     = {24703609},
+  Url                      = {http://linkinghub.elsevier.com/retrieve/pii/S0376871614007911}
+}
+
+@Article{Faccion2018,
+  Title                    = {p53 expression and subcellular survivin localization improve the diagnosis and prognosis of patients with diffuse astrocytic tumors},
+  Author                   = {Faccion, Roberta Soares and Bernardo, Paula Sabbo and de Lopes, Giselle Pinto Faria and Bastos, Leonardo Soares and Teixeira, Cristina Lordello and de Oliveira, Jos{\'e} Antonio and Fernandes, Priscila Valverde and Dubois, Luiz Gustavo and Chimelli, Leila and Maia, Raquel Ciuvalschi},
+  Journal                  = {Cellular Oncology},
+  Year                     = {2018},
+
+  Month                    = {Jan},
+  Number                   = {2},
+  Pages                    = {141-157},
+  Volume                   = {41},
+
+  Abstract                 = {Diffuse astrocytic tumors are the most frequently occurring primary central nervous system (CNS) tumors. Their histological sub-classification into diffuse astrocytoma (DA), anaplastic astrocytoma (AA) and glioblastoma (GB) is challenging and the available prognostic factors are limited to age and tumor subtype. Biomarkers that may improve the histological sub-classification and/or serve as prognostic factors are, therefore, urgently needed. The relationship between survivin and p53 in diffuse astrocytic tumor progression and survival is currently unclear. Here, we aimed to assess the relevance of these proteins in the accuracy of the histological sub-classification of these tumors and their respective treatment responses.},
+  Day                      = {26},
+  Doi                      = {10.1007/s13402-017-0361-5},
+  ISSN                     = {2211-3436}
+}
+
+@Article{Griep2014,
+  Title                    = {{Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro, Brazil}},
+  Author                   = {Griep, Rosane and Bastos, Leonardo S. and Fonseca, Maria de Jesus and Silva-Costa, Aline and Portela, Luciana and Toivanen, Susanna and Rotenberg, Lucia},
+  Journal                  = {BMC Health Services Research},
+  Year                     = {2014},
+  Number                   = {1},
+  Pages                    = {603},
+  Volume                   = {14},
+
+  Doi                      = {10.1186/s12913-014-0603-4},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Griep et al. - 2014 - Years worked at night and body mass index among registered nurses from eighteen public hospitals in Rio de Janeiro.pdf:pdf},
+  ISSN                     = {1472-6963},
+  Url                      = {http://www.biomedcentral.com/1472-6963/14/603}
+}
+
+@Article{juvanhol2016factors,
+  Title                    = {Factors associated with overweight: are the conclusions influenced by choice of the regression method?},
+  Author                   = {Juvanhol, Leidjaira Lopes and Lana, Raquel Martins and Cabrelli, Renata and Bastos, Leonardo Soares and Nobre, Aline Ara{\'u}jo and Rotenberg, L{\'u}cia and Griep, Rosane H{\"a}rter},
+  Journal                  = {BMC public health},
+  Year                     = {2016},
+  Number                   = {1},
+  Pages                    = {642},
+  Volume                   = {16},
+
+  Doi                      = {10.1186/s12889-016-3340-2},
+  Publisher                = {BioMed Central}
+}
+
+@Article{lima2017mosqtent,
+  Title                    = {MosqTent: An individual portable protective double-chamber mosquito trap for anthropophilic mosquitoes},
+  Author                   = {Lima, Jos{\'e} Bento Pereira and Galardo, Allan Kardec Ribeiro and Bastos, Leonardo Soares and da Silva Lima, Arthur Weiss and Rosa-Freitas, Maria Goreti},
+  Journal                  = {PLoS neglected tropical diseases},
+  Year                     = {2017},
+  Number                   = {3},
+  Pages                    = {e0005245},
+  Volume                   = {11},
+
+  Doi                      = {10.1371/journal.pntd.0005245},
+  Publisher                = {Public Library of Science}
+}
+
+@Article{lima2017biology,
+  Title                    = {Biology of Triatoma sherlocki (Hemiptera: Reduviidae) Under Laboratory Conditions: Biological Cycle and Resistance to Starvation},
+  Author                   = {Lima-Neiva, Vanessa and Gon{\c{c}}alves, Teresa CM and Bastos, Leonardo S and Gumiel, Marcia and Correia, Nath{\'a}lia C and Silva, Catia C and Almeida, Carlos E and Costa, Jane},
+  Journal                  = {Journal of medical entomology},
+  Year                     = {2017},
+  Number                   = {4},
+  Pages                    = {831--836},
+  Volume                   = {54},
+
+  Doi                      = {10.1093/jme/tjw249},
+  Publisher                = {Oxford University Press}
+}
+
+@Article{Loschi2005,
+  Title                    = {{Identifying Volatility Clusters Using the PPM: A Sensitivity Analysis}},
+  Author                   = {Loschi, Rosangela H. and Bastos, Leonardo S. and Iglesias, Pilar L.},
+  Journal                  = {Computational Economics},
+  Year                     = {2005},
+
+  Month                    = {jun},
+  Number                   = {4},
+  Pages                    = {305--319},
+  Volume                   = {24},
+
+  Doi                      = {10.1007/s10614-005-5169-0},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Loschi, Bastos, Iglesias - 2004 - Identifying volatility clusters using the PPM A sensitivity analysis.pdf:pdf},
+  ISSN                     = {0927-7099},
+  Keywords                 = {Inverted-Gamma distribution,Student-t distribution,Yao's cohesions},
+  Url                      = {http://link.springer.com/10.1007/s10614-005-5169-0}
+}
+
+@Article{MacCarthy2016,
+  Title                    = {{Mind the gap: implementation challenges break the link between HIV/AIDS research and practice}},
+  Author                   = {{MacCarthy}, Sarah AND Reisner, Sari AND Hoffmann, Michael AND Perez-Brumer, Amaya AND Silva-Santisteban, Alfonso AND Nunn, Amy AND Bastos, Leonardo AND Vasconcellos, Mauricio Teixeira Leite de AND Kerr, Ligia AND Bastos, Francisco I AND Dourado, In\^es},
+  Journal                  = {{Cadernos de Sa\'ude P\'ublica}},
+  Year                     = {2016},
+
+  Month                    = {10},
+  Number                   = {10},
+  Pages                    = {e00047715},
+  Volume                   = {32},
+
+  Doi                      = {10.1590/0102-311X00047715},
+  ISSN                     = {0102-311X},
+  Language                 = {en},
+  Publisher                = {scielo}
+}
+
+@Article{Paiva2012,
+  Title                    = {{An{\'{a}}lise do risco de mortalidade e de morbidade hospitalar do SUS por doen{\c{c}}as respirat{\'{o}}rias usando modelo de regress{\~{a}}o Poisson com efeitos aleat{\'{o}}rios}},
+  Author                   = {Paiva, Nat{\'{a}}lia Santana and Bastos, Leonardo S.},
+  Journal                  = {Revista Brasileira de Estatistica},
+  Year                     = {2012},
+  Number                   = {237},
+  Pages                    = {93--115},
+  Volume                   = {2},
+
+  Abstract                 = {O escopo do presente trabalho e demonstrar a utiliza{\c{c}}{\~{a}}o de alguns modelos de regress{\~{a}}o de Poisson com efeitos aleat{\'{o}}rios na detec{\c{c}}{\~{a}}o de padr{\~{o}}es de varia{\c{c}}{\~{a}}o do risco de morbidade hospitalar do SUS e de mortalidade para doen{\c{c}}as do aparelho respirat{\'{o}}rio no estado do Rio de Janeiro (RJ) no ano de 2003. A infer{\^{e}}ncia ser{\'{a}} feita sob a {\'{o}}tica bayesiana usando o m{\'{e}}todo INLA implementado no ambiente R. A aplica{\c{c}}{\~{a}}o aos dados do Rio de Janeiro exemplifica como modelos com efeito aleat{\'{o}}rio e estrutura espacial podem reduzir a heterogeneidade presente nos dados. No caso de dados de taxa de interna{\c{c}}{\~{a}}o por doen{\c{c}}as respirat{\'{o}}rias, o modelo de regress{\~{a}}o Poisson com efeitos taxa de interna{\c{c}}{\~{a}}o por doen{\c{c}}as respirat{\'{o}}rias, o modelo de regress{\~{a}}o Poisson com efeitos aleat{\'{o}}rios com estrutura espacial se mostrou o mais adequado enquanto para o ajuste da taxa de mortalidade por doen{\c{c}}as respirat{\'{o}}rias o modelo somente com efeitos aleat{\'{o}}rios foi o que mais se adequou. Em ambos modelos nenhuma das co vari{\'{a}}veis dispon{\'{\i}}veis mostrou-se estatisticamente significativa. Palavras-chave: Regress{\~{a}}o de Poisson; Modelo com efeitos aleat{\'{o}}rios; Doen{\c{C}}as respirat{\'{o}}rias; INLA; DIC.},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Santana Paiva, Soares Bastos - 2014 - An{\'{a}}lise do risco de mortalidade e de morbidade hospitalar do SUS por doen{\c{c}}as respirat{\'{o}}rias us.pdf:pdf},
+  Keywords                 = {()}
+}
+
+@Article{rizzetto2017chronic,
+  Title                    = {Chronic kidney disease progression: a retrospective analysis of 3-year adherence to a low protein diet},
+  Author                   = {Rizzetto, Felipe and Leal, Viviane de Oliveira and Bastos, Leonardo Soares and Fouque, Denis and Mafra, Denise},
+  Journal                  = {Renal failure},
+  Year                     = {2017},
+  Number                   = {1},
+  Pages                    = {357--362},
+  Volume                   = {39},
+
+  Doi                      = {10.1080/0886022x.2017.1282374},
+  Publisher                = {Taylor \& Francis}
+}
+
+@Article{rodrigues2017distribution,
+  Title                    = {Distribution of pulmonary tuberculosis in Rio de Janeiro ({B}razil): a spatial analysis},
+  Author                   = {Rodrigues, N{\'a}dia Cristina Pinheiro and Andrade, M{\^o}nica Kramer de Noronha and O'Dwyer, Gisele and Flynn, Matthew and Braga, Jos{\'e} Ueleres and Almeida, Andr{\'e}a Sobral de and Bastos, Leonardo Soares and Lino, Val{\'e}ria Teresa Saraiva},
+  Journal                  = {Ciencia \& saude coletiva},
+  Year                     = {2017},
+  Pages                    = {4125--4134},
+  Volume                   = {22},
+
+  Doi                      = {10.1590/1413-812320172212.0143016},
+  Publisher                = {SciELO Public Health}
+}
+
+@Article{DASILVA2018163,
+  Title                    = {Integrated analysis of ethionamide resistance loci in Mycobacterium tuberculosis clinical isolates},
+  Author                   = {Duanne Alves da Silva and Nicole Victor Ferreira and Amanda Mendes Rego and Pamela Chrystina Pinto Barbosa and Rodrigo Fernandes Machado and Alessandra Pimentel and Lusiano Motta dos Reis and Lucindo Cardoso de Pina and Paulo Redner and Paulo Cesar de Souza Caldas and Fátima Cristina Onofre Fandinho-Montes and Liamar Borga and Suzanne Pereira Leite and Jorge Luiz da Rocha and Leonardo Soares Bastos and Jesus Pais Ramos and Wim Maurits Degrave and L. Caetano M. Antunes and Teca Calcagno Galv\~ao},
+  Journal                  = {Tuberculosis},
+  Year                     = {2018},
+  Pages                    = {163 - 174},
+  Volume                   = {113},
+
+  Doi                      = {https://doi.org/10.1016/j.tube.2018.08.010},
+  ISSN                     = {1472-9792},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S147297921830180X}
+}
+
+@Article{sperandei2018assessing,
+  Title                    = {Assessing respondent-driven sampling: A simulation study across different networks},
+  Author                   = {Sperandei, Sandro and Bastos, Leonardo Soares and Ribeiro-Alves, Marcelo and Bastos, Francisco In{\'a}cio},
+  Journal                  = {Social Networks},
+  Year                     = {2018},
+  Pages                    = {48--55},
+  Volume                   = {52},
+
+  Doi                      = {10.1016/j.socnet.2017.05.004},
+  Publisher                = {Elsevier}
+}
+
+@Article{toledo2017criminal,
+  Title                    = {Criminal justice involvement of crack cocaine users in the city of Rio de Janeiro and Greater Metropolitan Area: Implications for public health and the public security agenda},
+  Author                   = {Toledo, Lidiane and Cano, Ign{\'a}cio and Bastos, Leonardo and Bertoni, Neilane and Bastos, Francisco Inacio},
+  Journal                  = {International Journal of Drug Policy},
+  Year                     = {2017},
+  Pages                    = {65--72},
+  Volume                   = {49},
+
+  Doi                      = {10.1016/j.drugpo.2017.07.034},
+  Publisher                = {Elsevier}
+}
+
+@Article{villela2017zika,
+  Title                    = {Zika in Rio de Janeiro: Assessment of basic reproduction number and comparison with dengue outbreaks},
+  Author                   = {Villela, DAM and Bastos, LS and De Carvalho, LM and Cruz, OG and Gomes, MFC and Durovni, B and Lemos, MC and Saraceni, V and Coelho, FC and Code{\c{c}}o, CT},
+  Journal                  = {Epidemiology \& Infection},
+  Year                     = {2017},
+  Number                   = {8},
+  Pages                    = {1649--1657},
+  Volume                   = {145},
+
+  Doi                      = {10.1017/s0950268817000358},
+  Publisher                = {Cambridge University Press}
+}
+
+@Article{Zapata-Vazquez2014,
+  Title                    = {{Eliciting expert judgements about a set of proportions}},
+  Author                   = {Zapata-V{\'{a}}zquez, Rita Esther and O'Hagan, Anthony and Bastos, Leonardo S.},
+  Journal                  = {Journal of Applied Statistics},
+  Year                     = {2014},
+
+  Month                    = {sep},
+  Number                   = {9},
+  Pages                    = {1919--1933},
+  Volume                   = {41},
+
+  Abstract                 = {Eliciting expert knowledge about several uncertain quantities is a complex task when those quantities exhibit associations. A well-known example of such a problem is eliciting knowledge about a set of uncertain proportions which must sum to 1. The usual approach is to assume that the expert's knowledge can be adequately represented by a Dirichlet distribution, since this is by far the simplest multivariate distribution that is appropriate for such a set of proportions. It is also the most convenient, particularly when the expert's prior knowledge is to be combined with a multinomial sample since then the Dirichlet is the conjugate prior family. Several methods have been described in the literature for eliciting beliefs in the form of a Dirichlet distribution, which typically involve eliciting from the expert enough judgements to identify uniquely the Dirichlet hyperparameters. We describe here a new method which employs the device of over-fitting, i.e. eliciting more than the minimal number of judgements, in order to (a) produce a more carefully considered Dirichlet distribution and (b) ensure that the Dirichlet distribution is indeed a reasonable fit to the expert's knowledge. The method has been implemented in a software extension of the Sheffield Elicitation Framework (SHELF) to facilitate the multivariate elicitation process.},
+  Doi                      = {10.1080/02664763.2014.898131},
+  File                     = {:home/lbastos/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Zapata-V{\'{a}}zquez - 2014 - Eliciting expert judgements about a set of proportions.pdf:pdf},
+  ISSN                     = {0266-4763},
+  Keywords                 = {0ver-ffitting,Dirichlet distribution,Elicitation,Multinomial distribution,Multinomial distribution Keywords,Over-fitting,SHELF},
+  Url                      = {http://mc.manuscriptcentral.com/cjas http://www.tandfonline.com/doi/abs/10.1080/02664763.2014.898131}
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
