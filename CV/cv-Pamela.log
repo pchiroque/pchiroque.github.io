@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  15 JUN 2020 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.22)  15 JUN 2020 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,13 +614,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-Class scrartcl Warning: incompatible usage of \@ssect detected.
-(scrartcl)              You've used the KOMA-Script implementation of \@ssect
-(scrartcl)              from within a non compatible caller, that does not
-(scrartcl)              \scr@s@ct@@nn@m@ locally.
-(scrartcl)              This could result in several error messages on input li
-ne 183.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -628,7 +625,15 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 194.
+ne 184.
+
+
+Class scrartcl Warning: incompatible usage of \@ssect detected.
+(scrartcl)              You've used the KOMA-Script implementation of \@ssect
+(scrartcl)              from within a non compatible caller, that does not
+(scrartcl)              \scr@s@ct@@nn@m@ locally.
+(scrartcl)              This could result in several error messages on input li
+ne 195.
 
 (./cv-Pamela.bbl
 
@@ -648,7 +653,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 220.
+ne 221.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -656,10 +661,10 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 228.
+ne 229.
 
 
-Overfull \hbox (0.98189pt too wide) in paragraph at lines 233--233
+Overfull \hbox (0.98189pt too wide) in paragraph at lines 234--234
 \OT1/cmr/bx/n/10.95 Congress Stu-dentship  [][][][][][] 
  []
 
@@ -669,7 +674,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 253.
+ne 254.
 
 [2]
 
@@ -678,35 +683,36 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 267.
+ne 268.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
  (./cv-Pamela.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
 Package rerunfilecheck Info: File `cv-Pamela.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
  ) 
 Here is how much of TeX's memory you used:
- 11491 strings out of 492616
- 184353 string characters out of 6129480
+ 11497 strings out of 492616
+ 184446 string characters out of 6129480
  442573 words of memory out of 5000000
- 15222 multiletter control sequences out of 15000+600000
- 14731 words of font info for 54 fonts, out of 8000000 for 9000
+ 15226 multiletter control sequences out of 15000+600000
+ 14899 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,51p,9143b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,51p,9143b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on cv-Pamela.pdf (3 pages, 75332 bytes).
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on cv-Pamela.pdf (3 pages, 86177 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
- 11265 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 11777 words of extra memory for PDF output out of 12000 (max. 10000000)
 
