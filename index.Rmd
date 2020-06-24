@@ -19,6 +19,8 @@ title: "Pamela Solano"
 
 ### 2020
 
+- (Statistical Ecology). virtual International Statistical Ecology Conference on June 24 2020.[(Link)](vISEC/)
+
 - (Perú COVID-19) Confirmed cases in Perú by distrits. [(Link)](https://pchiroque.shinyapps.io/perucovid19/)
 - (International apresentation) Accepted in the International Statistical Ecology Conference (June 2020) 
 
