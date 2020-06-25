@@ -17,28 +17,21 @@ title: "Pamela Solano"
 - Orcid: [0000-0002-2667-8755](https://orcid.org/0000-0002-2667-8755)
 - [Publication page](publications.html)
 
-### 2020
+### Research 
 
 - (Statistical Ecology). virtual International Statistical Ecology Conference - Sydney Austrália on June 24 2020.[(Link)](vISEC/)
 
 - (Perú COVID-19) Confirmed cases in Perú by distrits. [(Link)](https://pchiroque.shinyapps.io/perucovid19/)
 
-### 2019
-
 - (Projects) Marine Ecology modeling
-- (Projects) Arboviral (Arthropod-borne Viral) Diseases
 
-### 2018
+- (Projects) Arboviral (Arthropod-borne Viral) Diseases
 
 - Event Diarrhea crisis in Childhood research (The last chapter of Thesis) ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
 
 - 33 Foro Nacional de Estadística (33FNE) y XIII Congreso Latinoamericano de sociedades de estadística (13 CLATSE) - Guadalajara Mexico [CLATSE 2018](Clatse/Clatse2018.pdf) 
 
-### 2017
-
 - V Congreso Latinoamericano de Estatística Bayesiana - Guanajuato Mexico [Cobal 2017](Cobal/Joint.pdf) 
-
-### 2015
 
 - IV Congreso Latinoamericano de Estatística Bayesiana - Medellin Colombia [Cobal 2015](Cobal/Atuaria.pdf) 
 
