@@ -3,44 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: cv-Pamela.aux
 The style file: aparev.bst
 Database file #1: ChiroqueSolano.bib
-You've used 4 entries,
+Warning--empty year in Chiroque-Solano2020d
+Warning--empty year in Chiroque-Solano2020e
+Warning--empty year in Chiroque-Solano2020b
+Warning--empty year in Chiroque-Solano2020a
+Warning--empty year in Chiroque-Solano2020c
+You've used 9 entries,
             1940 wiz_defined-function locations,
-            500 strings with 4542 characters,
-and the built_in function-call counts, 1390 in all, are:
-= -- 134
-> -- 57
-< -- 3
-+ -- 18
-- -- 18
-* -- 124
-:= -- 259
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 28
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 51
-empty$ -- 89
-format.name$ -- 28
-if$ -- 260
+            521 strings with 6471 characters,
+and the built_in function-call counts, 4476 in all, are:
+= -- 380
+> -- 372
+< -- 4
++ -- 138
+- -- 138
+* -- 439
+:= -- 844
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 113
+chr.to.int$ -- 9
+cite$ -- 14
+duplicate$ -- 116
+empty$ -- 189
+format.name$ -- 155
+if$ -- 797
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 23
-num.names$ -- 12
-pop$ -- 20
+missing$ -- 7
+newline$ -- 48
+num.names$ -- 27
+pop$ -- 114
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 114
 quote$ -- 0
-skip$ -- 42
+skip$ -- 83
 stack$ -- 0
-substring$ -- 72
-swap$ -- 7
+substring$ -- 132
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 0
-while$ -- 10
+type$ -- 54
+warning$ -- 5
+while$ -- 20
 width$ -- 0
-write$ -- 54
+write$ -- 109
+(There were 5 warnings)
