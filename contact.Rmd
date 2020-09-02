@@ -4,7 +4,7 @@ title: "Contact"
 
 Emails: pamela@dme.ufrj.br
 
-<img src="files/PamPam.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
+<img src="files/Pam.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
 
 ## Institutional address:

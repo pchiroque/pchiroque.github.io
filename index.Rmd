@@ -4,7 +4,7 @@ title: "Pamela Solano"
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="files/PAM.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
+<img src="files/Pam.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right">
 
 
 - Posdoctoral researcher at [SAGE](http://www.sage.coppe.ufrj.br)/[Abrolhos](http://abrolhos.org), Brazil.
@@ -27,7 +27,8 @@ title: "Pamela Solano"
 
 - (Projects) Arboviral (Arthropod-borne Viral) Diseases
 
-- Event Diarrhea crisis in Childhood research (The last chapter of Thesis) ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
+- Joint modeling of longitudinal markers and survival data: an approach via dynamic
+hierarchical models (Thesis) ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
 
 - 33 Foro Nacional de Estadística (33FNE) y XIII Congreso Latinoamericano de sociedades de estadística (13 CLATSE) - Guadalajara Mexico [CLATSE 2018](Clatse/Clatse2018.pdf) 
 
