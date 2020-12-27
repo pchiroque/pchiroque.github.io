@@ -19,7 +19,11 @@ title: "Pamela Solano"
 
 ### Research 
 
+- (Statistical Ecology). Program Ecology Conference - UFRJ on December 2 2020.[(Link)](pUFRJ/)
+
 - (Statistical Ecology). virtual International Statistical Ecology Conference - Sydney Austrália on June 24 2020.[(Link)](vISEC/)
+
+- (COVID-19) Maps: covid-19 pandemic vulnerability index . [(Link)](https://acaocovid19-homolog.web.app/statistics)
 
 - (Perú COVID-19) Confirmed cases in Perú by distrits. [(Link)](https://pchiroque.shinyapps.io/perucovid19/)
 
