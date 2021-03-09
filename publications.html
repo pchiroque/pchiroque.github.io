@@ -22,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -325,6 +336,7 @@ $(document).ready(function () {
 
 <p>My <a href="https://orcid.org/0000-0002-2667-8755">Orcid page</a>.</p>
 <ul>
+<li><p>Teixeira CD, <strong>Chiroque-Solano PM</strong>, Ribeiro FV, Carlos-Júnior LA, Neves LM, Salomon PS, et al. (2021) Decadal (2006-2018) dynamics of Southwestern Atlantic’s largest turbid zone reefs. PLoS ONE 16(2): e0247111. <a href="https://doi.org/10.1371/journal.pone.0247111" class="uri">https://doi.org/10.1371/journal.pone.0247111</a></p></li>
 <li><p>Moura, Abieri, Castro, Carlos-Júnior, <strong>Chiroque-Solano</strong> et. al. (2021) Tropical rhodolith beds are a major and belittled reef fish habitat. <em>Nature:Scientific Reports</em> <a href="https://doi.org/10.1038/s41598-020-80574-w">DOI</a></p></li>
 <li><p>Delgado, Shimabuku, <strong>Chiroque-Solano</strong>. (2020) COVID-19 Waves: Importance of Accumulative Mortality per Million Inhabitants. <em>Experimental Medicine</em>. <a href="https://doi.org/10.1620/tjem.251.47">DOI</a></p></li>
 <li><p>Richard Chiroque-Solano, <strong>Chiroque-Solano</strong>. (2017) Visibilidad de la Revista Médica Herediana: Una revisión mediante Google Scholar. <em>Medicine</em>. <a href="https://doi.org/10.20453/rmh.v28i3.3183">DOI</a></p></li>
@@ -339,7 +351,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
