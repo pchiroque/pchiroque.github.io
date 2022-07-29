@@ -13,18 +13,25 @@
 
 <title>Pamela Solano</title>
 
-<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -38,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -91,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -111,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -172,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -184,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -195,10 +145,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -210,7 +173,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -277,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -326,7 +288,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -336,37 +298,97 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="files/Pame.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right"></p>
+<!-- <img src="files/Pame.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="right"> -->
 <ul>
-<li>Posdoctoral researcher at <a href="http://www.sage.coppe.ufrj.br">SAGE</a>/<a href="http://abrolhos.org">Abrolhos</a>, Brazil.</li>
+<li>Posdoctoral researcher at <a
+href="http://www.sage.coppe.ufrj.br">SAGE</a>/<a
+href="http://abrolhos.org">Abrolhos</a>, Brazil.</li>
 </ul>
-<div id="cv-and-publications" class="section level2">
-<h2>CV and publications:</h2>
+<div id="academic-information" class="section level2">
+<h2>Academic Information:</h2>
 <ul>
-<li><a href="CV/cv-Pamela.pdf">Personal CV</a></li>
 <li><a href="http://lattes.cnpq.br/3521875663611776">Lattes CV</a></li>
-<li><a href="https://scholar.google.com.au/citations?user=La3oKqMAAAAJ&amp;hl=pt-BR">Google Scholar</a></li>
-<li>Orcid: <a href="https://orcid.org/0000-0002-2667-8755">0000-0002-2667-8755</a></li>
-<li><a href="https://www.researchgate.net/profile/Pamela_Chiroque-Solano">ResearchGate</a></li>
+<li><a
+href="https://scholar.google.com.au/citations?user=La3oKqMAAAAJ&amp;hl=pt-BR">Google
+Scholar</a></li>
+<li>Orcid: <a
+href="https://orcid.org/0000-0002-2667-8755">0000-0002-2667-8755</a></li>
+<li><a
+href="https://www.researchgate.net/profile/Pamela_Chiroque-Solano">ResearchGate</a></li>
 <li><a href="publications.html">Publication page</a></li>
 </ul>
-<div id="research" class="section level3">
-<h3>Research</h3>
+</div>
+<div id="research" class="section level2">
+<h2>Research</h2>
 <ul>
-<li><p>(Statistical Ecology). Program Ecology Conference - UFRJ on December 2 2020. Title: “Modelo de efeitos variando no tempo para dados composicionais”. <a href="https://pchiroque.github.io/PPGE_UFRJ/Eco_UFRJ.html">(Link)</a></p></li>
-<li><p>(Statistical Ecology). virtual International Statistical Ecology Conference - Sydney Austrália on June 24 2020. Title: “Hierarchy for Time-Dependent Quantile regression model to predict coral cover”. <a href="vISEC/">(Link)</a></p></li>
-<li><p>(COVID-19) Maps: covid-19 pandemic vulnerability index . <a href="https://acaocovid19-homolog.web.app/statistics">(Link)</a></p></li>
-<li><p>(Perú COVID-19) Confirmed cases in Perú by distrits. <a href="https://pchiroque.shinyapps.io/perucovid19/">(Link)</a></p></li>
+<li><p>(Multivariate Analysis for Biology). Coral growth bands recorded
+trace elements associated with the fundão dam collapse. 2021. <a
+href="https://doi.org/10.1016/j.scitotenv.2021.150880">(Link)</a></p></li>
+<li><p>(Multivariate Analysis for Biology). Decadal (2006-2018) dynamics
+of southwestern atlantic’s largest turbid zone reefs. <a
+href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247111">(Link)</a></p></li>
+<li><p>(Multivariate Analysis for Biology). Tropical rhodolith beds are
+a major and belittled reef fish habitat. <a
+href="https://doi.org/10.1038/s41598-020-80574-w">(Link)</a></p></li>
+<li><p>(Epidemiology). Covid-19 waves: Importance of accumulative
+mortality per million inhabitants. 2020. <a
+href="https://doi.org/10.1620/tjem.251.47">(Link)</a></p></li>
+<li><p>(Classification Problem). A robust clustering method using
+compositional data restrictions: Studying wood properties in the
+reforestation of portugal. 2022. <a
+href="https://caas.usu.edu/agstats2022/agenda-at-a-glance">(Link)</a></p></li>
+<li><p>(Risk model). A heavy-tailed and overdispersed collective risk
+model. 2021. <a
+href="https://www.tandfonline.com/doi/abs/10.1080/10920277.2021.1943451">(Link)</a></p></li>
+<li><p>(Risk model). Insurance pricing and risk measures on collective
+risk model. <a
+href="https://eventos.cimpa.ucr.ac.cr/index.php/simmac/XXIIISIMMAC/schedConf/presentations?searchInitial=C&amp;track=">(Link)</a></p></li>
+<li><p>(Statistical Modeling in Ecology). International Statistical
+Ecology Conference - 27 June – 1 July, 2022 in Cape Town, South Africa.
+Variability issues in compositional regression models to understand the
+marine community dynamic of Abrolhos in Brazil. A hierarchical approach
+using Bayesian inference. 2022. <a
+href="https://www.isec2022.org/wp-content/uploads/2022/06/ISEC-2022-FINAL-Programme-1.pdf">(Link)</a></p></li>
+<li><p>(Statistical Modeling in Ecology). Program Ecology Conference -
+UFRJ on December 2 2020. Title: “Modelo de efeitos variando no tempo
+para dados composicionais”. <a
+href="https://pchiroque.github.io/PPGE_UFRJ/Eco_UFRJ.html">(Link)</a></p></li>
+<li><p>(Statistical Modeling in Ecology). virtual International
+Statistical Ecology Conference - Sydney Austrália on June 24 2020.
+Title: “Hierarchy for Time-Dependent Quantile regression model to
+predict coral cover”. <a href="vISEC/">(Link)</a></p></li>
+<li><p>(COVID-19) Maps: covid-19 pandemic vulnerability index . <a
+href="https://acaocovid19-homolog.web.app/statistics">(Link)</a></p></li>
+<li><p>(Perú COVID-19) Confirmed cases in Perú by distrits.</p></li>
+</ul>
+<!-- [(Link)](https://pchiroque.shinyapps.io/perucovid19/) -->
+<ul>
 <li><p>(Projects) Marine Ecology modeling</p></li>
 <li><p>(Projects) Arboviral (Arthropod-borne Viral) Diseases</p></li>
-<li><p>Joint modeling of longitudinal markers and survival data: an approach via dynamic hierarchical models (Thesis) (<a href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</p></li>
-<li><p>33 Foro Nacional de Estadística (33FNE) y XIII Congreso Latinoamericano de sociedades de estadística (13 CLATSE) - Guadalajara Mexico. Title: “A flexible joint model for time-to-event and a sequence of longitudinal biomarker data, a full dynamic hierarchical approach”. <a href="Clatse/Clatse2018.pdf">CLATSE 2018</a></p></li>
-<li><p>V Congreso Latinoamericano de Estatística Bayesiana - Guanajuato Mexico. Title: “A joint dynamic hierarchical multi-state model”. <a href="Cobal/Joint.pdf">Cobal 2017</a></p></li>
-<li><p>IV Congreso Latinoamericano de Estatística Bayesiana - Medellin Colombia. Title: “Modelo Hierárquico Robusto para o Risco Coletivo sobre abordagem Bayesiano”. <a href="Cobal/Atuaria.pdf">Cobal 2015</a></p></li>
+<li><p>(Statistical Methods in Medical Research). Joint modeling of
+longitudinal markers and survival data: an approach via dynamic
+hierarchical models (Thesis) (<a
+href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</p></li>
+<li><p>(Statistical Methods in Medical Research). 33 Foro Nacional de
+Estadística (33FNE) y XIII Congreso Latinoamericano de sociedades de
+estadística (13 CLATSE) - Guadalajara Mexico. Title: “A flexible joint
+model for time-to-event and a sequence of longitudinal biomarker data, a
+full dynamic hierarchical approach”. <a
+href="Clatse/Clatse2018.pdf">CLATSE 2018</a></p></li>
+<li><p>(Statistical Methods in Medical Research). V Congreso
+Latinoamericano de Estatística Bayesiana - Guanajuato Mexico. Title: “A
+joint dynamic hierarchical multi-state model”. <a
+href="Cobal/Joint.pdf">Cobal 2017</a></p></li>
+<li><p>(Bibliometry). Visibilidad de la revista médica herediana. Una
+revisión mediante google scholar. <a
+href="https://doi.org/10.20453/rmh.v28i3.3183">(Link)</a></p></li>
+<li><p>(Risk Model). IV Congreso Latinoamericano de Estatística
+Bayesiana - Medellin Colombia. Title: “Modelo Hierárquico Robusto para o
+Risco Coletivo sobre abordagem Bayesiano”. <a
+href="Cobal/Atuaria.pdf">Cobal 2015</a></p></li>
 </ul>
 <p>Last update:</p>
-<pre><code>## [1] &quot;Mon May 17 12:26:54 2021&quot;</code></pre>
-</div>
+<pre><code>## [1] &quot;Sat Jul 30 00:26:50 2022&quot;</code></pre>
 </div>
 
 
@@ -396,7 +418,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

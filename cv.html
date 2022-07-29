@@ -11,19 +11,27 @@
 
 
 
-<title>CV</title>
+<title>Background</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -37,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -54,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -90,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +145,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +173,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -276,7 +239,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -325,33 +288,68 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">CV</h1>
+<h1 class="title toc-ignore">Background</h1>
 
 </div>
 
 
 <div id="short-bio" class="section level2">
 <h2>Short bio</h2>
-<p>Currently I am working as postdoctoral in oceanography. I have a PhD statistics by UFRJ Brazilian university and posdoctoral in ecological modelling by UFRJ Brazilian university Institute of Biology. My interest is based on developing Bayesian statistical tools to applied real problems.</p>
+<p>I am a statistician. I have been awarded a Ph.D. in Statistics
+(2018), MSc degree in Statistics (2014), and BSc in Statistics
+(2007).</p>
+<p>Currently, I am researcher at the Centre for the Research and
+Technology of Agroenvironmentaç and Biological Sciences (CITAB) at the
+University of Trás-os-Montes e Alto Douro, with affiliation at the
+Department of Mathematics, Vila Real, Portugal.</p>
+<p>I was a permanent assistant professor at the Federal Rural University
+of Rio de Janeiro (UFRRJ), Brazil. I have been invited as a lecturer at
+the Graduate Program in Environmental and Forest Sciences (PPGCAF) in
+the UFRRJ and as a senior researcher at the Federal University of Rio de
+Janeiro (UFRJ) in the COPPE-SAGE lab dedicated to Sustainable Production
+Systems since 2018, Brazil.</p>
+<p>I have worked as a postdoctoral researcher in the Conservation in
+Socio-Ecological Systems group at the University of Lisboa in the Centre
+for Ecology, Evolution and Environmental Changes, CE3C (2021).</p>
 </div>
-<div id="education" class="section level2">
-<h2>Education</h2>
+<div id="academic-qualifications" class="section level2">
+<h2>Academic Qualifications</h2>
 <ul>
-<li>Posdoctoral in ecological modelling, <a href="http://www.ppgecologia.biologia.ufrj.br/">The Federal University of Rio de Janeiro / Ecologia Biologia</a>, Brazil, 2020. <BR> Under supervision of <a href="http://lattes.cnpq.br/8814217649491828">Prof Rodrigo Moura</a>.</li>
-<li>PhD in statistics, <a href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro / DME</a>, Brazil, 2018. <BR> Under supervision of <a href="http://lattes.cnpq.br/7997248190492823">Prof Helio Migon</a>. (<a href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</li>
-<li>Master in statistics, <a href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro / DME</a>, Brazil, 2014. <BR> Under supervision of <a href="http://lattes.cnpq.br/7139199699142105">Prof Fernando Moura</a>. (<a href="http://www.pg.im.ufrj.br/teses/Estatistica/Mestrado/144.pdf">Thesis</a>)</li>
+<li><p>PhD in statistics, <a href="http://www.dme.ufrj.br/">The Federal
+University of Rio de Janeiro / DME</a>, Brazil, 2018. <BR> Under
+supervision of <a href="http://lattes.cnpq.br/7997248190492823">Prof
+Helio Migon</a>. (<a
+href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</p></li>
+<li><p>Master in statistics, <a href="http://www.dme.ufrj.br/">The
+Federal University of Rio de Janeiro / DME</a>, Brazil, 2014. <BR> Under
+supervision of <a href="http://lattes.cnpq.br/7139199699142105">Prof
+Fernando Moura</a>. (<a
+href="http://www.pg.im.ufrj.br/teses/Estatistica/Mestrado/144.pdf">Thesis</a>)</p></li>
+<li><p>Undergraduate in statistics, <a
+href="https://matematicas.unmsm.edu.pe/eap-estad%C3%ADstica.html">National
+University Mayor de San Marcos / Mathematics and Statistics</a>, Perú,
+2007. <BR> Under supervision of [Prof Ysela Aguero]</p></li>
 </ul>
 </div>
 <div id="students" class="section level2">
 <h2>Students</h2>
 <ul>
-<li>Mariana Soares (2019-2021) Statistics/ Institute of Matematics.</li>
-<li>Larissa Maracajá (2019-2021) Statistics/ Institute of Matematics.</li>
-<li>Jessica Areias (2019-2020) Statistics/ Institute of Matematics.</li>
+<li><p>Carolina Pinheiro (2021) Graduate Program of Mathematics (UFRRJ).
+<br> Quantitative Biology.</p></li>
+<li><p>Mariana Soares (2019-2021) Statistics/ Institute of Mathematics.
+<br> Modeling Compositional Data.</p></li>
+<li><p>Larissa Maracajá (2019-2021) Statistics/ Institute of
+Mathematics. <br> Modeling Multivariate Environmental Ocean
+Data.</p></li>
+<li><p>Jessica Areias (2019-2020) Statistics/ Institute of Mathematics.
+<br> Structural Equations Models.</p></li>
+<li><p>João Paulo Pinto Siqueira (2018-2019) Statistics/ Institute of
+Mathematics. <br> Infection Growth Rate Modeling via State Space AR(1),
+a Particular Case.</p></li>
 </ul>
 </div>
 
@@ -382,7 +380,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
