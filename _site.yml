@@ -3,13 +3,13 @@ output_dir: "."
 navbar:
   title: "Pamela Solano"
   left:
-    - text: "Research"
+    - text: "Home"
       href: research.html
     - text: "Publications"
       href: publications.html
     - text: "Teaching"
       href: teaching.html
-    - text: "About me"
+    - text: "About"
       href: cv.html
     - text: "Contact"
       href: contact.html
