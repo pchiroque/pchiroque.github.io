@@ -13,7 +13,7 @@
 
 <title>-</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -249,7 +246,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Research</a>
+  <a href="research.html">Home</a>
 </li>
 <li>
   <a href="publications.html">Publications</a>
@@ -258,7 +255,7 @@ $(document).ready(function () {
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
-  <a href="cv.html">About me</a>
+  <a href="cv.html">About</a>
 </li>
 <li>
   <a href="contact.html">Contact</a>
@@ -305,7 +302,8 @@ $(document).ready(function () {
 <li><p>(Machine Learning in Remote Sensing). Mapping leaf area index of
 chestnut trees using multispectral data from unmanned aerial vehicles.
 In working progress in collaboration with Luis Padua, Pedro Marques,
-Emanuel Peres and Joaquim J. Sousa.</p></li>
+Emanuel Peres and Joaquim J. Sousa. <a
+href="https://doi.org/10.3390/drones6120422">(Link)</a>.</p></li>
 <li><p>(Geo-Statistics for Climate change). Interactions between
 orographic, atmospheric conditions and phytochemical parameters of
 grapevine cultivar tempranillo. using geospatial modeling. Working
@@ -353,14 +351,14 @@ Title: “Hierarchy for Time-Dependent Quantile regression model to
 predict coral cover”. <a href="vISEC/">(Link)</a></p></li>
 <li><p>(COVID-19) Maps: covid-19 pandemic vulnerability index . <a
 href="https://acaocovid19-homolog.web.app/statistics">(Link)</a></p></li>
-<li><p>(Perú COVID-19) Confirmed cases in Perú by distrits (since
-2020).</p></li>
+<li><p>(CPI) The Covid-19 Protection Index. <a
+href="https://acaocovid19-homolog.web.app/publications/note7">(Link)</a>.</p></li>
 </ul>
-<!-- [(Link)](https://pchiroque.shinyapps.io/perucovid19/) -->
+<!-- - (Perú COVID-19) Confirmed cases in Perú by distrits (since 2020). -->
+<!-- - [(Link)](https://pchiroque.shinyapps.io/perucovid19/) -->
+<!-- - (Projects) Marine Ecology modeling (since 2018) -->
+<!-- - (Projects) Arboviral (Arthropod-borne Viral) Diseases (2019) -->
 <ul>
-<li><p>(Projects) Marine Ecology modeling (since 2018)</p></li>
-<li><p>(Projects) Arboviral (Arthropod-borne Viral) Diseases
-(2019)</p></li>
 <li><p>(Statistical Methods in Medical Research). Joint modeling of
 longitudinal markers and survival data: an approach via dynamic
 hierarchical models (Thesis) (<a
@@ -388,7 +386,7 @@ Risco Coletivo sobre abordagem Bayesiano”. <a
 href="Cobal/Atuaria.pdf">Cobal 2015</a></p></li>
 </ul>
 <p>Last update:</p>
-<pre><code>## [1] &quot;Tue Sep 27 00:44:16 2022&quot;</code></pre>
+<pre><code>## [1] &quot;Tue Jun 13 17:27:21 2023&quot;</code></pre>
 </div>
 
 

@@ -13,7 +13,7 @@
 
 <title>-</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -297,49 +294,19 @@ $(document).ready(function () {
 </div>
 
 
-<p>I have been working as a statistician since 2007. I am a researcher
-at the Centre for the Research and Technology of Agroenvironmentaç and
-Biological Sciences (CITAB) at the University of Trás-os-Montes e Alto
-Douro.
-<!-- My **research** focuses on building consistent **state-of-the-art models to answer scientific question**. I apply Statistics to a real context which makes me feel that my work is **useful to society**. --></p>
-<p>I have had the opportunity to share and apply my Statistical
-knowledge in multidisciplinary groups. I have already contributed to
-scientific literature (Plos One, Nature, STOTEN), writing project
-technical reports and developing user-friendly R-packages.</p>
-<p>In my period as a permanent assistant professor at the Federal Rural
-University of Rio de Janeiro (UFRRJ), Brazil. I was invited as a
-lecturer at the Graduate Program in Environmental and Forest Sciences
-(PPGCAF) in the UFRRJ and as a senior researcher at the Federal
-University of Rio de Janeiro (UFRJ) in the COPPE-SAGE lab dedicated to
-Sustainable Production Systems since 2018, Brazil.</p>
-<p>I have worked as a postdoctoral researcher in the Conservation in
-Socio-Ecological Systems group at the University of Lisboa in the Centre
-for Ecology, Evolution and Environmental Changes, CE3C (2021).
-Posdoctoral research in Ecology at PPGE in the Biology Institute at
-UFRJ.</p>
-<div id="academic-qualifications" class="section level1">
-<h1>Academic Qualifications</h1>
-<ul>
-<li><p><strong>PhD in statistics</strong>, <a
-href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro
-/ DME</a>, Brazil, 2018. <BR> Under supervision of <a
-href="http://lattes.cnpq.br/7997248190492823">Prof Helio Migon</a>. (<a
-href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</p></li>
-<li><p><strong>Master in statistics</strong>, <a
-href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro
-/ DME</a>, Brazil, 2014. <BR> Under supervision of <a
-href="http://lattes.cnpq.br/7139199699142105">Prof Fernando Moura</a>.
-(<a
-href="http://www.pg.im.ufrj.br/teses/Estatistica/Mestrado/144.pdf">Thesis</a>)</p></li>
-<li><p><strong>Undergraduate in statistics</strong>, <a
-href="https://matematicas.unmsm.edu.pe/eap-estad%C3%ADstica.html">National
-University Mayor de San Marcos / Mathematics and Statistics</a>, Perú,
-2007. <BR> Under supervision of [Prof Antonio Bravo]</p></li>
-</ul>
-</div>
+<p>I have been working as a statistician since 2007.
+<!-- Currently I am working as a researcher at the Faculty for Informatics and Data Science at the University of Regensburg. --></p>
+<!-- I am a researcher at the Centre for the Research and Technology of Agroenvironmentaç and Biological Sciences (CITAB) at the University of Trás-os-Montes e Alto Douro.  -->
+<!-- My **research** focuses on building consistent **state-of-the-art models to answer scientific question**. I apply Statistics to a real context which makes me feel that my work is **useful to society**. -->
+<!-- I have had the opportunity to share and apply my Statistical knowledge in multidisciplinary groups. I have already contributed to scientific literature (Plos One, Nature, STOTEN), writing project technical reports and developing user-friendly R-packages. -->
+<!-- In my period as a permanent assistant professor at the Federal Rural University of Rio de Janeiro (UFRRJ), Brazil. I was invited as a lecturer at the Graduate Program in Environmental and Forest Sciences (PPGCAF) in the UFRRJ and as a senior researcher at the Federal University of Rio de Janeiro (UFRJ) in the COPPE-SAGE lab dedicated to Sustainable Production Systems since 2018, Brazil. -->
+<!-- I have worked as a postdoctoral researcher in the Conservation in Socio-Ecological Systems group at the University of Lisboa in the Centre for Ecology, Evolution and Environmental Changes, CE3C (2021). Posdoctoral research in Ecology at PPGE in the Biology Institute at UFRJ. -->
 <div id="scientific-career" class="section level1">
 <h1>Scientific Career</h1>
 <ul>
+<li><p><strong>PhD Researcher</strong> (since 2023) <BR> Faculty for
+Informatics and Data Science, FIDS, <br> Universität Regensburg, <br>
+93053 Regensburg, Germany. <br></p></li>
 <li><p><strong>Tenure Professor in Statistics</strong> (2020-2022) <BR>
 Departamento de Tecnologias e Linguagens, Instituto Multidisciplinar,
 <br> Universidade Federal Rural do Rio de Janeiro, UFRRJ, <br>
@@ -365,10 +332,32 @@ UFRJ</strong> (2018-2019) <BR> Instituto de Matemática <br> Departmento
 de métodos estatísticos <br> Avenida Athos da Silveira Ramos, 149 Bloco
 C, Ilha do Fundão - Cidade Universitária, <br> Rio de Janeiro, RJ,
 Brasil. <br> CEP: 21941972<br></p></li>
-<li><p><strong>Volunteer experience</strong> (since 2017)</p></li>
-<li><p><strong>Statistician in Social Media Research</strong>
-(2007-2012) <BR> Kantar Media Research Peru and IBOPE, <br> Department
-of Statistics, <br> Miraflores, Lima, Peru.</p></li>
+</ul>
+<!-- - **Volunteer experience** (since 2017) -->
+<ul>
+<li><strong>Statistician in Social Media Research</strong> (2007-2012)
+<BR> Kantar Media Research Peru and IBOPE, <br> Department of
+Statistics, <br> Miraflores, Lima, Peru.</li>
+</ul>
+</div>
+<div id="academic-qualifications" class="section level1">
+<h1>Academic Qualifications</h1>
+<ul>
+<li><p><strong>PhD in statistics</strong>, <a
+href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro
+/ DME</a>, Brazil, 2018. <BR> Under supervision of <a
+href="http://lattes.cnpq.br/7997248190492823">Prof Helio Migon</a>. (<a
+href="http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf">Thesis</a>)</p></li>
+<li><p><strong>Master in statistics</strong>, <a
+href="http://www.dme.ufrj.br/">The Federal University of Rio de Janeiro
+/ DME</a>, Brazil, 2014. <BR> Under supervision of <a
+href="http://lattes.cnpq.br/7139199699142105">Prof Fernando Moura</a>.
+(<a
+href="http://www.pg.im.ufrj.br/teses/Estatistica/Mestrado/144.pdf">Thesis</a>)</p></li>
+<li><p><strong>Undergraduate in statistics</strong>, <a
+href="https://matematicas.unmsm.edu.pe/eap-estad%C3%ADstica.html">National
+University Mayor de San Marcos / Mathematics and Statistics</a>, Perú,
+2007. <BR> Under supervision of [Prof Antonio Bravo]</p></li>
 </ul>
 </div>
 
