@@ -1,5 +1,5 @@
 name: "Pamela Solano"
-output_dir: doc
+output_dir: "."
 navbar:
   left:
     - text: "Home"
@@ -27,3 +27,6 @@ output:
   html_document:
     theme: cosmo
     css: 'styles.css'
+resource_files:
+  - ChiroqueSolano.bib    
+    
