@@ -10,6 +10,8 @@ navbar:
       href: publications.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Fields of Research"
+      href: research.html
     - text: "Scientific Career"
       href: cv.html
     - text: "Contact"

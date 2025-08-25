@@ -1,0 +1,133 @@
+---
+title: "Projects"
+subtitle: ''
+csl: mee.csl
+bibliography: ChiroqueSolano.bib
+output:
+  html_document:
+    df_print: paged
+---
+
+
+- (Precision Medicine) A Bayesian Additive Regression Trees Model for zero and one inflated data for Predicting Individual Treatment Effects in Alcohol Use Disorder Trials. [(Link)](https://arxiv.org/html/2507.19848v1)
+
+
+- (Precision Medicine) Hybrid AI Methods for Feature Selection
+in Personalized Treatment Effect Prediction.
+[(Link)](https://pchiroque.github.io/files/WIDS_2025.pdf)
+
+
+- (Machine Learning) Regression Based on Tree for Outcomes with Closed Boundary Domain. [(Link)](https://pchiroque.github.io/files/WIDS_poster_14May24_P.pdf)
+
+
+- (Precision Medicine) Vorhersage von individuellen Effekten (Predicting individual treament effects). 
+<br>[July 2024](https://pchiroque.github.io/files/ISCB24724.pdf), [April 2025](https://pchiroque.github.io/files/BAYSM2025.pdf).
+
+
+- (Machine Learning in Remote Sensing). Probabilistic Models and Machine
+Learning Algorithms to predict Biomass and LAI for
+Multispectral-LiDAR UAV-based Data. [(Link)](https://www.stat.purdue.edu/conferences/agstats2023/documents/Program%20Booklet%202023%20BAC11.pdf). 
+
+- (Machine Learning in Remote Sensing). Mapping leaf area index of chestnut trees using
+multispectral data from unmanned aerial vehicles. [(Link)](https://doi.org/10.3390/drones6120422).  
+
+
+- (Geo-Statistics for Climate change). Interactions between orographic, atmospheric conditions and phytochemical parameters of grapevine cultivar tempranillo. using geospatial modeling.
+
+
+- (Microbiology). Community surveillance of covid-19:
+a bayesian hierarchical dynamic approach to model and interpret sars-cov-2 load in wastewater. Working progress in collaboration with T. Marques, and M. Vieira.
+
+
+- (Multivariate Analysis for Biology). Coral growth bands recorded trace elements associated with the fundão dam collapse. 2021.
+[(Link)](https://doi.org/10.1016/j.scitotenv.2021.150880)
+
+
+- (Multivariate Analysis for Biology). Decadal (2006-2018) dynamics of southwestern atlantic’s largest turbid zone reefs.
+[(Link)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247111)
+
+
+- (Multivariate Analysis for Biology). Tropical rhodolith beds are a major and belittled reef fish habitat.
+[(Link)](https://doi.org/10.1038/s41598-020-80574-w)
+
+
+- (Epidemiology). Covid-19 waves: Importance of accumulative mortality per million inhabitants. 2020.
+[(Link)](https://doi.org/10.1620/tjem.251.47)
+
+
+- (Classification Problem). A robust clustering method using
+compositional data restrictions: Studying wood properties in the reforestation of portugal. 2022. 
+[(Link)](https://caas.usu.edu/agstats2022/agenda-at-a-glance)
+
+
+- (Risk model). A heavy-tailed and overdispersed collective risk model. 2021.
+[(Link)](https://www.tandfonline.com/doi/abs/10.1080/10920277.2021.1943451)
+
+
+- (Risk model). Insurance pricing and risk measures on collective risk model. 2022.
+[(Link)](https://eventos.cimpa.ucr.ac.cr/index.php/simmac/XXIIISIMMAC/schedConf/presentations?searchInitial=C&track=)
+
+
+- (Statistical Modeling in Ecology). International Statistical Ecology Conference - 27 June – 1 July, 2022 in Cape Town, South Africa.
+Variability issues in compositional regression models to understand the marine community dynamic of Abrolhos in Brazil. A hierarchical approach using Bayesian inference. 2022.
+[(Link)](https://www.isec2022.org/wp-content/uploads/2022/06/ISEC-2022-FINAL-Programme-1.pdf)
+
+
+- (Statistical Modeling in Ecology). Program Ecology Conference - UFRJ on December 2 2020. 
+Title: "Modelo de efeitos variando no tempo para dados composicionais". [(Link)](https://pchiroque.github.io/PPGE_UFRJ/Eco_UFRJ.html)
+
+
+- (Statistical Modeling in Ecology). virtual International Statistical Ecology Conference - Sydney Austrália on June 24 2020. 
+Title: "Hierarchy for Time-Dependent Quantile regression model to predict coral cover".
+[(Link)](vISEC/)
+
+
+- (COVID-19) Maps: covid-19 pandemic vulnerability index . [(Link)](https://acaocovid19-homolog.web.app/statistics)
+
+
+- (CPI) The Covid-19 Protection Index. [(Link)](https://acaocovid19-homolog.web.app/publications/note7).
+
+
+<!-- - (Perú COVID-19) Confirmed cases in Perú by distrits (since 2020). -->
+
+<!-- - [(Link)](https://pchiroque.shinyapps.io/perucovid19/) -->
+
+
+<!-- - (Projects) Marine Ecology modeling (since 2018) -->
+
+
+<!-- - (Projects) Arboviral (Arthropod-borne Viral) Diseases (2019) -->
+
+
+- (Statistical Methods in Medical Research). Joint modeling of longitudinal markers and survival data: an approach via dynamic
+hierarchical models (Thesis) ([Thesis](http://www.pg.im.ufrj.br/teses/Estatistica/Doutorado/040.pdf))
+
+- (Demographic and Social  Research). Summer International Scientific Meeting 2018 - Lima Perú. 
+Title: "Symbolic violence in urban music: analyzing the artist, Maluma".
+[ECI2018](https://eciperu.net/wp-content/uploads/2017/12/eci-libro-de-resc3bamenes-del-eci-2018-de-verano-final.pdf), 
+[slide](https://pchiroque.github.io/files/Maluma.pdf)
+
+
+- (Statistical Methods in Medical Research). 33 Foro Nacional de Estadística (33FNE) y XIII Congreso Latinoamericano de sociedades de estadística (13 CLATSE) - Guadalajara Mexico. 
+Title: "A flexible joint model for time-to-event and a sequence of longitudinal biomarker data, a full dynamic hierarchical approach".
+[CLATSE 2018](Clatse/Clatse2018.pdf) 
+
+
+- (Statistical Methods in Medical Research). V Congreso Latinoamericano de Estatística Bayesiana - Guanajuato Mexico. 
+Title: "A joint dynamic hierarchical multi-state model". 
+[Cobal 2017](Cobal/Joint.pdf) 
+
+
+- (Bibliometry). Visibilidad de la revista médica herediana. Una revisión mediante google scholar.
+[(Link)](https://doi.org/10.20453/rmh.v28i3.3183)
+
+
+- (Risk Model). IV Congreso Latinoamericano de Estatística Bayesiana - Medellin Colombia. 
+Title: "Modelo Hierárquico Robusto para o Risco Coletivo sobre abordagem Bayesiano". 
+[Cobal 2015](Cobal/Atuaria.pdf) 
+
+
+Last update:
+```{r, echo=F}
+date()
+```
