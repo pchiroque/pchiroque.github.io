@@ -4,16 +4,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Projects"
-      href: projects.html
+    - text: "Research"
+      href: projects-research.html
     - text: "Publications"
       href: publications.html
     - text: "Teaching"
       href: teaching.html
-    - text: "Research"
-      href: research.html
     - text: "Academic Career"
-      href: cv.html
+      href: academic.html
   right:
     - icon: fa-github fa-lg
       href: http://github.com/pchiroque
