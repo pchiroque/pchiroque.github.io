@@ -19,8 +19,8 @@ output:
 Current research focuses on **Bayesian learning** and **hybrid AI** to predict individualized treatment responses, advancing personalized healthcare and clinical decision-making.
 
 - **(2025)** *Evaluating Predictive Modeling Strategies for Predicting Individual Treatment Effects in Precision Medicine*  
-  This study reveals novel differences in model accuracy, directionality, and robustness for predicting individual treatment effects.
-  
+  This study reveals novel differences in model accuracy, directionality, and robustness for predicting individual
+  treatment effects.  
   [In review]
 
 - **(2025)** *A Bayesian Additive Regression Trees Model for Zero and One Inflated Data*  
@@ -58,7 +58,6 @@ Methodological design in psychoanalytic health research.
 Applied research spanning **ecology**, **environmental monitoring**, and **risk modeling**, with emphasis on **Bayesian inference**, **hierarchical models**, and **multivariate probabilistic analysis**.
 
 - **(2025)** *A Geospatial–Climate Framework Reveals How Micro-Terroir and Weather Extremes Shape Grape Biochemical Quality*
-
   [In Review]
 
 - **(2023)** *Probabilistic Models and Machine Learning for Biomass and LAI Prediction*  
@@ -137,19 +136,19 @@ Time-series analysis of mortality data to identify temporal trends and epidemic 
   [UFRJ Ecology Meeting →](https://pchiroque.github.io/PPGE_UFRJ/Eco_UFRJ.html)
 
 - **(2020)** *Hierarchical Time-Dependent Quantile Regression Model for Predicting Coral Cover*
-  Spatial modeling using heavy-tailed distributions: A Bayesian approach.
+  Spatial modeling using heavy-tailed distributions: A Bayesian approach.  
   [ISEC 2020 →](vISEC/virtual.html)
 
 - **(2018)** *A Flexible Joint Model for Time-to-Event Data and Sequential Longitudinal Biomarkers: A Fully Dynamic Hierarchical Framework*
-  Comprehensive hierarchical modeling for survival and longitudinal data.
+  Comprehensive hierarchical modeling for survival and longitudinal data.  
   [CLATSE 2018 →](Clatse/Clatse2018.pdf)
 
 - **(2017)** *A Joint Dynamic Hierarchical Multi-State Model*
-  Hierarchical Bayesian approach for multi-state survival analysis.
+  Hierarchical Bayesian approach for multi-state survival analysis.  
   [Cobal 2017 →](Cobal/Joint.pdf)
   
 - **(2015)** *Robust Hierarchical Model for Collective Risk under a Bayesian Framework*
-  Advanced actuarial modeling with heavy-tailed and robust distributions under Bayesian approach.
+  Advanced actuarial modeling with heavy-tailed and robust distributions under Bayesian approach.  
   [Cobal 2015 →](Cobal/Atuaria.pdf)
 
 ---
